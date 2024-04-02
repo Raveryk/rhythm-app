@@ -1,9 +1,11 @@
+require('dotenv').config();
 const express = require('express');
 const app = express();
 const cors = require('cors');
-const port = 3005;
+const port = process.env.PORT;
 
-const uri = 'mongodb+srv://raveryk:MoiLKckq8sRDrL9x@rhythmappcluster.v1zo1xl.mongodb.net/?retryWrites=true&w=majority&appName=RhythmAppCluster'
+
+const uri = process.env.DATABASE_CONNECTION;
 
 const mongoose = require('mongoose');
 mongoose
