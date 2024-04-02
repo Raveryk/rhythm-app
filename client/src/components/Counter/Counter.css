@@ -1,0 +1,21 @@
+.counterButton {
+    background-color: inherit;
+    border: none;
+}
+
+.counterVal {
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    margin: auto;
+}
+
+.counterContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0% 2% 0% 2%;
+}
+
+.counterLabels {
+    font-size: 20px;
+}

@@ -1,0 +1,10 @@
+.inputContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formInput {
+    border: none;
+    border-bottom: 1px solid rgb(172, 172, 172);
+    background-color: antiquewhite;
+}

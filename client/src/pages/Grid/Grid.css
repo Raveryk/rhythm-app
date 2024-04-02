@@ -1,0 +1,64 @@
+.gridRow {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+.gridRowLabel {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+    /* animation: fadeInOut 4s linear 1 forwards;        */
+}
+
+/* @keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+} */
+
+
+
+#gridTitle {
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: antiquewhite;
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+}
+
+#gridTitle:focus-visible {
+    outline: none;
+    /* outline-color: rgb(199, 247, 255);
+    outline-style: groove;
+    outline-width: 5px;
+    outline-offset: 5px; */
+}
+
+#rhythm-grid {
+    margin-bottom: 2%;
+    min-height: 250px;
+    max-width: 850px;
+}
+
+.titleContainer {
+    display: flex;
+}
+
+.title {
+    margin: auto;
+}

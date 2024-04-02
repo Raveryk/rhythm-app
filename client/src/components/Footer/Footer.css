@@ -1,0 +1,8 @@
+#footer {
+    display: flex;
+    justify-content: end;
+}
+
+#footer-text {
+    margin: 5px;
+}

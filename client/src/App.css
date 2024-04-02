@@ -1,0 +1,31 @@
+#root {
+  padding: 0rem 2rem 2rem 2rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  min-height: 600px;
+}
+
+.body {
+  width: 100%;
+}
+
+.formAndListContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.formAndList {
+  display: flex;
+}
+
+.gridContainer {
+  display: flex;
+  justify-content: center;
+}
+
